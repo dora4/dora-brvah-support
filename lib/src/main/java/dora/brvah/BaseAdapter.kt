@@ -14,7 +14,7 @@ abstract class BaseAdapter<T, B : ViewDataBinding>(private val layoutResId: Int,
 
     class DoraViewHolder<B>(view: View) : BaseViewHolder(view) {
 
-        internal var binding: B? = null
+        var binding: B? = null
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DoraViewHolder<B> {

@@ -42,7 +42,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-brvah-support"
-                version = "1.0"
+                version = "1.1"
             }
         }
     }
