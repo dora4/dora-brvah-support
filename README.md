@@ -12,7 +12,7 @@ allprojects {
     }
 }
 dependencies {
-    implementation("com.github.dora4:dora:1.1.37")
+    implementation("com.github.dora4:dora:1.1.46")
     implementation("com.github.dora4:dora-brvah-support:1.1")
 }
 ```
