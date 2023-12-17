@@ -30,8 +30,8 @@ android {
 }
 
 dependencies {
-    implementation("androidx.recyclerview:recyclerview:1.3.1")
-    implementation("com.github.dora4:dora:1.1.37")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("com.github.dora4:dora:1.1.46")
     api("com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.10")
 }
 
@@ -42,7 +42,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-brvah-support"
-                version = "1.1"
+                version = "1.2"
             }
         }
     }
