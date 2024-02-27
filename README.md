@@ -13,7 +13,7 @@ allprojects {
 }
 dependencies {
     // 扩展包必须在有主框架dora的情况下使用
-    implementation("com.github.dora4:dora:1.1.46")
+    implementation("com.github.dora4:dora:1.1.61")
     implementation("com.github.dora4:dora-brvah-support:1.2")
 }
 ```
