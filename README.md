@@ -16,6 +16,6 @@ dependencies {
     implementation("com.github.dora4:dora:1.2.35")
     // 依赖RecyclerView
     implementation("androidx.recyclerview:recyclerview:1.3.2")
-    implementation("com.github.dora4:dora-brvah-support:1.2")
+    implementation("com.github.dora4:dora-brvah-support:1.3")
 }
 ```

@@ -24,14 +24,14 @@ android {
         dataBinding = true
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 }
 
 dependencies {
     implementation("androidx.recyclerview:recyclerview:1.3.2")
-    implementation("com.github.dora4:dora:1.1.46")
+    implementation("com.github.dora4:dora:1.2.35")
     api("com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.10")
 }
 
@@ -42,7 +42,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-brvah-support"
-                version = "1.2"
+                version = "1.3"
             }
         }
     }
