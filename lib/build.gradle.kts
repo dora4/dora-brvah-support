@@ -7,11 +7,10 @@ plugins {
 
 android {
     namespace = "dora.brvah"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 34
     }
 
     buildTypes {
@@ -30,8 +29,8 @@ android {
 }
 
 dependencies {
-    implementation("androidx.recyclerview:recyclerview:1.3.2")
-    implementation("com.github.dora4:dora:1.3.14")
+    implementation("androidx.recyclerview:recyclerview:1.4.0")
+    implementation("com.github.dora4:dora:1.3.53")
     api("com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.10")
 }
 
@@ -42,7 +41,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dora4"
                 artifactId = "dora-brvah-support"
-                version = "1.5"
+                version = "1.6"
             }
         }
     }
